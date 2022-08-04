@@ -1,0 +1,48 @@
+.HomeSection2 {
+  background: #f1f5f8;
+}
+
+.title {
+  text-align: center;
+}
+
+.featured {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  margin: 4rem auto;
+  gap: 2.5rem;
+}
+
+.featured img {
+  height: 225px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  transition: all 0.3s linear;
+}
+
+.container {
+  position: relative;
+  background: #222;
+  border-radius: 0.25rem;
+}
+
+.card {
+}
+
+.card footer {
+  margin-top: 1rem;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.btn {
+  display: block;
+  width: 148px;
+  margin: 0px auto;
+  text-align: center;
+}

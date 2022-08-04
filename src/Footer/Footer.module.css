@@ -1,0 +1,23 @@
+.Footer {
+  text-align: center;
+  display: flex;
+  background: #222;
+  flex-direction: row;
+  height: 5rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.Footer h5 {
+  color: #fff;
+  margin: 0.1rem;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.25;
+}
+
+.Footer span {
+  color: #ab7a5f;
+}

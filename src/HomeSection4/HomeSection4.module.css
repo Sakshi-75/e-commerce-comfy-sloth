@@ -1,0 +1,24 @@
+.HomeSection4 {
+}
+.HomeSection4 p {
+  margin-bottom: 0px;
+  line-height: 2;
+  max-width: 45em;
+  color: #617d98;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 8rem;
+  margin-top: 2rem;
+}
+
+.contact-form {
+  width: 90vw;
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}

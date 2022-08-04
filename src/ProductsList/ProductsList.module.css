@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+  .ProductsList {
+    display: grid;
+    gap: 2rem 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1170px) {
+  .ProductsList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem 1.5rem;
+  }
+}

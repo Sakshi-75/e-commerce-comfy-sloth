@@ -1,0 +1,57 @@
+.HomeSection3 {
+  background-color: #eaded7;
+}
+
+.HomeSection3 p {
+  margin-bottom: 0px;
+  line-height: 1.8;
+  color: #795744;
+}
+
+.HomeSection3 h3,
+.HomeSection3 h4 {
+  color: #453237;
+}
+
+.HomeSection3 span svg {
+  font-size: 2rem;
+}
+
+.section-center {
+  transform: translateY(5rem);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header h3 {
+  margin-bottom: 2rem;
+}
+
+.services-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  margin-top: 4rem;
+  gap: 2.5rem;
+}
+
+.service {
+  background: #c5a491;
+  position: relative;
+  text-align: center;
+  padding: 2.5rem 2rem;
+  border-radius: 0.25rem;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  display: grid;
+  margin: 0px auto 1rem;
+  place-items: center;
+  border-radius: 50%;
+  background-color: #eaded7;
+  color: #453237;
+}

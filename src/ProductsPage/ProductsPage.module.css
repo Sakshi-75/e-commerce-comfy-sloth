@@ -1,0 +1,37 @@
+.ProductsPage {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.header {
+  background-color: #eaded7;
+  display: flex;
+  letter-spacing: 1.6px;
+  color: #453237;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 3rem 1.5rem;
+  margin: 4rem auto;
+}
+
+.home {
+  text-decoration: none;
+  color: #795744;
+}
+
+.home:hover {
+  color: #453237;
+}
+
+.listHeader {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.sort {
+  display: grid;
+  grid-template-columns: auto auto;
+}
