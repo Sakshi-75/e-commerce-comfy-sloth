@@ -1,0 +1,46 @@
+.About {
+}
+
+.header {
+  background-color: #eaded7;
+  display: flex;
+  letter-spacing: 1.6px;
+  color: #453237;
+}
+
+.home {
+  text-decoration: none;
+  color: #795744;
+}
+
+.home:hover {
+  color: #453237;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  min-height: calc(80vh - 10rem);
+  width: 95vw;
+  max-width: 1170px;
+  padding: 5rem 0;
+  margin: 0 auto;
+}
+
+.text {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.title {
+  text-align: left;
+  color: #102a42;
+}
+
+.image {
+  width: 100%;
+  display: block;
+  height: 500px;
+  border-radius: 0.25rem;
+}

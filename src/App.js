@@ -1,5 +1,6 @@
 import { Switch } from "react-router-dom";
 import { Route } from "react-router-dom";
+import About from "./About/About";
 import "./App.css";
 import Footer from "./Footer/Footer";
 import Home from "./Home/Home";
@@ -17,6 +18,9 @@ function App() {
         <Switch>
           <Route path={"/products"}>
             <ProductsPage />
+          </Route>
+          <Route path={"/about"}>
+            <About />
           </Route>
           <Route path={"/"}>
             <Home />
