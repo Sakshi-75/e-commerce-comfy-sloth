@@ -29,13 +29,26 @@
 }
 
 .text {
-  display: grid;
-  grid-template-rows: auto auto;
+  display: block;
+  line-height: 2;
+  max-width: 45em;
+  margin: 2rem auto 0px;
+  color: #102a42;
 }
 
 .title {
   text-align: left;
   color: #102a42;
+}
+.title h2 {
+  font-size: 2.5rem;
+}
+
+.underline {
+  margin-left: 0px;
+  width: 6rem;
+  height: 0.25rem;
+  background: #ab7a5f;
 }
 
 .image {

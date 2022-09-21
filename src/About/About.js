@@ -20,7 +20,10 @@ const About = () => (
         className={styles.image}
       ></img>
       <div className={styles.text}>
-        <h3 className={styles.title}>Our Story</h3>
+        <div className={styles.title}>
+          <h2>Our Story</h2>
+          <div className={styles.underline}></div>
+        </div>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
         accusantium sapiente tempora sed dolore esse deserunt eaque excepturi,
         delectus error accusamus vel eligendi, omnis beatae. Quisquam, dicta.
